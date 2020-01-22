@@ -295,7 +295,7 @@ public class UserInterface extends Application {
         });
 
 
-        grid.setGridLinesVisible(true);
+        //grid.setGridLinesVisible(true);
         Scene scene = new Scene(grid, 820, 400);
         scene.getStylesheets().add("userinterface.css");
         primaryStage.getIcons().add(new Image("robot-30.png"));
