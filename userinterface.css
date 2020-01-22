@@ -1,0 +1,42 @@
+.root {
+    -fx-background-image: url("back-silver-copper-circuitboard-background-1920x1080.jpg");
+}
+
+
+#movementControlTitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #e7faf8;
+}
+
+#webcamControlTitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #e7faf8;
+}
+
+#movementControlExplanation {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+
+#webcamControlExplanation {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#e7faf8, #18384d);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#18384d, #e7faf8);
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
